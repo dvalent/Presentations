@@ -23,10 +23,18 @@
 
 <!-- Start of slides -->
 
+
+
   <div id="overview" class="step" data-x="3000" data-y="1500" data-z="0" data-scale="10"></div>
 
+  <div class="step impress-on-overview" id="overview2" data-x="3000" data-y="800" data-z="0" data-scale="9" data-rotate="" data-rotate-x="0" data-rotate-y="0" data-rotate-z="0" style="position: absolute; transform: translate(-50%, -50%) translate3d(3000px, 800px, 0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg) scale(9); transform-style: preserve-3d;">
+    <h1 id="oi-title" style="text-align: center;"><b>[ Oi ]</b></h1>
+    <svg height="20" width="700"><polyline points="150,0 250,0 250,20 450,20 450,0 550,0"  style="fill:none;stroke:#3e4852;stroke-width:10"></line>
+  </svg>
+  <p id="oi-try-it-out" style="text-align: center;"><a href="https://georgiowan.github.io/Oi/editor" target="_blank">Try it out!</a></p><p id="oi-view-on-github" style="text-align: center;"><a href="https://github.com/GeorgioWan/Oi/" target="_blank">View on Github</a></p>
+  </div>
 
-  <div id="purpose0" class="step slide" align="center" data-x="-1000" data-y="-1500" data-autoplay="10">
+  <div id="purpose0" class="step slide impress-on-overview" align="center" data-x="-1000" data-y="-1500" data-autoplay="10">
     <q><b>OUR PURPOSE</b></q>
     <q>Assess and improve technological design and presentation skills</q>
   </div>
@@ -51,11 +59,12 @@
     <span> But How <strong>do</strong> we <strong>do</strong> that? </span >
   </div>
 
-  <div id="" class="step text_large" align="center" data-x="-2700" data-y="2000"  data-scale="8">
+  <div id="" class="step text_large text_blur" align="center" data-x="-2700" data-y="2000"  data-scale="8">
     1
   </div>
 
   <div id="how1" class="step" align="center" data-x="-2700" data-y="2000"  data-scale="5">
+    <h1 class="text_blur">One</h1>
     <b>Inform</b> the office of the importance of improving <b>technical skills</b> <br/>
   </div>
 
@@ -201,10 +210,6 @@
     <img src="img/lusail/lights-010.png" alt="" width="700">
   </div>
 
-
-
-
-
   <div id="demo2" class="step slide" align="center" data-x="3000" data-y="8000" data-autoplay="10">
     <q> <b>Revit</b><br> Tips and Tricks</q>
   </div>
@@ -232,6 +237,33 @@
   <div id="where" class="step" align="center" data-x="6100" data-y="7000" data-rotate="180"  data-scale="9">
     <p>Where do we want to <b>GO?</b></p>
   </div>
+
+<!-- tests found from other presentations -->
+
+
+
+<div class="step" data-x="12000" data-y="-1000"><h1 style="border-bottom: 1px solid #ff0050">Steps<b class="animate tada s15">...</b></h1></div>
+   <div class="step" data-x="12000" data-y="-700">
+       <p>Each step of the presentation should be an element inside the `#impress` with `step` class name.</p>
+   </div>
+   <div class="step" data-x="12000" data-y="-200">
+       <p> These step elements are positioned, rotated and scaled by impress.js, and
+           the 'camera' shows them on each step of the presentation.<br>
+           Positioning information is passed through data attributes.</p>
+   </div>
+   <div class="step" data-x="13000" data-y="-1000">
+       <h1 style="text-align: left;"><b style="font-size: 50px;">data- attributes</b></h1>
+   </div>
+   <div class="step" data-x="13000" data-y="-700">
+       <h1 style="text-align: left;">1<b style="font-size: 30px;">data-z</b></h1>
+   </div>
+   <div class="step" data-x="13000" data-y="-500">
+       <h1 style="text-align: left;">2<b style="font-size: 30px;">data-x</b></h1>
+   </div>
+   <div class="step" data-x="13000" data-y="-300">
+       <h1 style="text-align: left;">3<b style="font-size: 30px;">data-y</b></h1>
+   </div>
+
 
   <!--
 
